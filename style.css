@@ -1,0 +1,130 @@
+/* RESET */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(192, 190, 188, 0.281);
+    width: 100%;
+    height: 100%;
+}
+
+/* CABEÇALHO */
+header {
+    height: 10vh;
+}
+
+/* TITULO */
+h1.tituloGeral {
+    margin: 20px 0;
+    text-align: center;
+    background-color: rgb(161, 175, 187);
+}
+
+/* BARRA DE NAVEGAÇÃO */
+nav {
+    background-color: bisque;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* LINK 1 */
+.btnInicio {
+    padding: 10px;
+    margin: auto;
+    text-decoration: none;
+    color: #000;
+}
+
+/* LINK 2 */
+.btnData {
+    padding: 10px;
+    margin: auto;
+    text-decoration: none;
+    color: #000;
+}
+
+.btnInicio:hover,.btnData:hover{
+    background-color: rgb(103, 105, 105);
+}
+
+main {
+    display: flex;
+}
+
+/* SECTION */
+.corpo {
+    width: 70%;
+    height: 80vh;
+    margin: 0;
+    padding: 10px;
+}
+
+/* ARTIGO PRINCIPAL */
+.atgPrincipal {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 10px;
+    text-align: justify;
+    text-indent: 2em;
+}
+
+.atgPrincipal>.chuvaatgP {
+    display: block;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ARTIGO SECUNDARIO */
+.atgSegundo {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    text-align: justify;
+    text-indent: 2em;
+    height: fit-content;
+}
+
+/* img */
+
+img {
+    width: 300px;
+}
+
+.atgSegundo {
+    align-items: center;
+    justify-content: center;
+}
+
+/* LATERAL DA PAG */
+.atgLateral {
+    width: 30%;
+    text-align: justify;
+    text-indent: 2em;
+    padding: 5px;
+    border-left: 1px solid rgba(37, 37, 37, 0.829);
+}
+
+.atgLateral>img {
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* FOOTER */
+.patrocinios {
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(44, 43, 43, 0.432);
+}
+
+footer>img {
+    width: 50px;
+    height: fit-content;
+}
